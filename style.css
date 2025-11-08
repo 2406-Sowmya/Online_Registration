@@ -1,0 +1,73 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f0e6;
+  color: #4b3f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container, .view-container, .success-container {
+  background-color: #fff7ed;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(80, 60, 30, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+h2 {
+  color: #5a4634;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b8a48b;
+  border-radius: 5px;
+  margin-top: 5px;
+  background: #fdfaf6;
+}
+
+button, .btn {
+  margin-top: 20px;
+  background-color: #c1a375;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #a88455;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #cdbb9a;
+}
+
+th {
+  background-color: #e8dcc4;
+}
+
+.success-container p {
+  margin: 10px 0;
+}
